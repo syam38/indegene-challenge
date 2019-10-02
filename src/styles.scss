@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+
+@media (max-width:480px) {
+  .top-bar {
+      margin-bottom: 5px !important;
+  }
+  .title {
+      margin-bottom: 5px !important;
+  }
+  .duration {
+      margin-bottom: 5px !important;        
+  }
+  .selector {
+      margin-bottom: 5px !important;
+  }
+  .duration-container {
+    width: 100px !important;
+    height: 100px !important;
+    .content {
+      top: 25px !important;
+    }
+  }
+}
+
+body {
+  margin: 0;
+}

@@ -1,0 +1,25 @@
+.home {
+    text-align: center;
+    background-color: skyblue;
+    height: 100%;
+    width: 100%;
+    .top-bar {
+        background-color: red;
+        height: 20px;
+        margin-bottom: 50px;
+    }
+    .title {
+        font-size: 28px;
+        font-family: 'Myraid Pro';
+        margin-bottom: 100px;
+    }
+    .duration {
+        margin-bottom: 50px;        
+    }
+    .selector {
+        margin-bottom: 50px;
+    }
+    .btn {
+        color: white;
+    }
+}

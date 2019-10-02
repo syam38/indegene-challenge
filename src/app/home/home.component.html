@@ -1,0 +1,20 @@
+<div class="home">
+    <div class="top-bar">
+    </div>
+    <div class="title">
+        RESULT OF THE TEST
+    </div>
+    <div class="duration">
+        <div fxLayout="row wrap" fxLayoutGap="32px" fxLayoutAlign="center" fxLayoutGap="16px grid">
+            <ng-container *ngFor="let item of items">
+                <app-duration [text]="item.text" [icon]="item.icon"></app-duration>
+            </ng-container>
+        </div>
+    </div>
+    <div class="selector">
+        <app-selector [reset]="resetFlag"></app-selector>
+    </div>
+    <button mat-stroked-button class="btn" (click)="resetSelector()">
+        TRY AGAIN
+    </button>
+</div>

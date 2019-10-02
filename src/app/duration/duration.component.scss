@@ -1,0 +1,15 @@
+.duration-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: white;
+    color: red;
+    .content {
+        top: 54px;
+        position: relative;
+    }
+}
+.duration-container:hover {
+    background-color: rgb(102, 114, 124);
+    cursor: pointer;
+}
